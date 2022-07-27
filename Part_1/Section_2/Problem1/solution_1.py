@@ -30,9 +30,6 @@ class Solution:
                 array_to_be_rev[k] = array_to_be_rev[l_ar - k - 1]
                 array_to_be_rev[l_ar - k - 1] = temp_r
 
-        
-
-        
 
         for i in range(0 , n - 1 ):
             for j in range( i + 1 , n):
@@ -55,6 +52,7 @@ class Solution:
 
 s1 = Solution()
 
-# print(s1.rotate([[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]))
-print(s1.rotate([[1, 2, 3, 4], [5, 6, 7, 8],
-      [9, 10, 11, 12], [13, 14, 15, 16]]))
+print(s1.rotate([[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]))
+# print(s1.rotate([[1, 2, 3, 4], [5, 6, 7, 8],      [9, 10, 11, 12], [13, 14, 15, 16]]))
+
+# HINT : transpose then reverse rows

@@ -34,3 +34,6 @@ print(s1.findDuplicate([3,1,3,4,2]))
 print(s1.findDuplicate([2,5,9,6,9,3,8,9,7,1]))
 
 print(s1.findDuplicate(l1))
+
+# tortoise method
+# proof re try  https://youtu.be/32Ll35mhWg0?t=469

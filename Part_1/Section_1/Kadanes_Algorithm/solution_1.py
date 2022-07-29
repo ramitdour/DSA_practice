@@ -20,7 +20,7 @@ class Solution(object):
             for k in range(len_arr - i):
                 # print(nums[k : k + i +1])
                 x = nums[k : k + i +1]
-                sub_arr_sum = sum(x)
+                sub_arr_sum = sum(x) # this is third for loop
                 if (largest_sum < sub_arr_sum): 
                     largest_sum = sub_arr_sum
                     sub_arr = x

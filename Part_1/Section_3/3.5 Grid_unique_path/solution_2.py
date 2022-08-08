@@ -5,6 +5,9 @@
 # better time complexity
 # more space fot firrect path table
 
+# time O(nxm)
+# space O(nxm)
+
 class Solution:
 
     def recursive_path(self,i,j,m,n,dp_table) -> int:
